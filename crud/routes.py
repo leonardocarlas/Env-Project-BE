@@ -35,7 +35,7 @@ def find_book(id: str, request: Request):
 
 
 '''
-If there are no fields in the book object, we're just returning the existing book. 
+If there are no fields in the apiary object, we're just returning the existing apiary. 
 However, if the book is not found, we're raising an HTTPException with a 404 Not Found status code.
 '''
 @router.put("/{id}", response_description="Update an apiary", response_model=Apiary)
