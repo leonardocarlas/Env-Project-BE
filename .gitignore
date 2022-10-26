@@ -1,2 +1,5 @@
 env
 express/node_modules
+nest/node_modules
+nest/dist
+.idea
